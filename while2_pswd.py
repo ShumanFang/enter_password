@@ -31,5 +31,9 @@ while i > 0:
 		break
 	else:
 		i = i - 1
-		print('wrong password, you have', i, 'more tries')
+		print('wrong password!')
+		if i > 0:
+			print('you have', i, 'more tries')
+		else:
+			print('cannot try more!')
 
